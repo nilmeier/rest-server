@@ -1,0 +1,31 @@
+<html>
+<head>
+
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <title>Go to URL test</title>
+  <script src="http://yagooft.pl/wp-includes/js/jquery/jquery.js?ver=1.7.2" type="text/javascript"></script>
+
+  <script type="text/javascript">
+jQuery(document).ready(function($) {
+
+  $('form#subdomain_redirect').submit(function(e) {
+  e.preventDefault();
+  var webRoot = 'yagooft.com';
+  var domain = $('input#subdomain').value();
+  if( domain != '' ) window.location.href = 'http://'+domain+'.'+webRoot;
+  else alert( 'Please enter a valid domain' );
+  });
+
+});
+ </script>
+</head>
+
+<body>
+<form id="subdomain_redirect" action="" method="">
+  <p><label for="subdomain">Enter sub-domain:</label><br>
+  <input id="nickname" name="nickname" type="text"> </p>
+</form>
+<br />
+
+</body>
+</html>

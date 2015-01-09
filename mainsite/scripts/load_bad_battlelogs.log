@@ -1,0 +1,8 @@
+faulty battlelog entry:  start > end
+{"msg": ["(end) Battle must end after start time."]}
+faulty battlelog entry:  start time in future AND start > end
+{"msg": ["(end) Battle must end after start time."]}
+faulty battlelog entry:  end time in future
+{"msg": ["(end) Battle must end before present."]}
+faulty battlelog entry:  battle against self
+{"msg": ["(attacker/defender) pair should be different"]}
