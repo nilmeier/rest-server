@@ -1,7 +1,7 @@
-# this is a list of instructions for installing and exploring 
-# website.  Commands are listed as uncommented items, but this 
-# is not a script to be run.
-# To start:
+this is a list of instructions for installing and exploring  website.  Commands are listed as uncommented items, but this 
+is not a script to be run.
+
+To start:
 
 # There are some caveats to the project to consider
 
